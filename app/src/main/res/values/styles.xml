@@ -1,0 +1,30 @@
+<resources>
+    <style name="MyActionBarTheme" parent="@style/Theme.AppCompat.Light">
+
+                 <item name="android:actionModeCloseDrawable">@drawable/right</item>
+
+
+               <!-- ActionMode右边的按钮是一个特殊的CloseButton，分割线与CloseButton的Style有关 -->
+                 <!-- 删除ActionMode的Divider-->
+                <item name="android:actionModeCloseButtonStyle">@null</item>
+           </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionModeCloseDrawable">@drawable/right</item>
+        <item name="android:actionModeCloseButtonStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
